@@ -1,6 +1,6 @@
 # California Housing Prices Estimator: Project Overview
 
-_This is a project where i create some machine learning models in order to predict the value of a house in California by analyzing features as total rooms, total bedrooms, ocean proximity, median income, housing median age, among others._
+_This is a project where I create some machine learning models in order to predict the value of a house in California by analyzing features as total rooms, total bedrooms, ocean proximity, median income, housing median age, among others._
 
 * [Dataset](https://www.kaggle.com/camnugent/california-housing-prices) - The used dataset was downloaded from the kaggle repository
 * Created a machine learning model that estimates the price of a house in California by analyzing different features.
