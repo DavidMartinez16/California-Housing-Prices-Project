@@ -45,22 +45,22 @@ _Plot the number of houses according to the age group_
 
 ## Model Building
 
-First , I split the data into train and test sets with a test size of 20 %. Then i tried four different models and evaluated them using the 10-Fold Cross Validation Score.
+First , I split the data into train and test sets with a test size of 20 %. Then I tried four different models and evaluated them using the 10-Fold Cross Validation Score.
 
-The models i tried are the following models with the respective cv score:
+The models I tried are the following models with the respective cv score:
 
 * **Linear Regression:** 61.22 %
 * **Polynomial Regression:** 61.22 %
 * **K-Nearest Neighbors:** 67.93 %
 * **Random Forest:** 78.60 %
 
-The i proceeded to tune the model using the GridSearchCV function
+The I proceeded to tune the model using the GridSearchCV function
 
 ## Model Tunning
 
 According with the GridSearchCV function the best parameters for the Random Forest model are 'max_depth'= 9 and 'n_estimators'= 5.  It's important to mention that there are no more higher parameters due to computational cost, and probably with higher values the performance of the model will improve.
 
-Finally, i decided to plot the feature importance of this model
+Finally, I decided to plot the feature importance of this model
 ![img3](https://user-images.githubusercontent.com/63115543/91671305-2a882100-eaeb-11ea-9bf3-cdcb410395a4.jpg)
 
 And the R-Squared value for this model was: **74.28 %**.
